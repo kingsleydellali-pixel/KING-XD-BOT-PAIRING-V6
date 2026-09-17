@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: king-xd-v6-pairing
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: BOT_NAME
+        value: KING XD V6 PAIRING
+      - key: DEVELOPER
+        value: KINGSLEY-XMD TECH
+      - key: NODE_VERSION
+        value: "20"
